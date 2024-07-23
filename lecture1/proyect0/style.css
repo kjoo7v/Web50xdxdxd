@@ -1,0 +1,31 @@
+.Logo{
+    font-family: product-sans, sans-serif;
+    span{
+        font-weight: normal;
+        font-size: 85px;
+
+        @media only screen and (max-width: 320px){
+            font-size: 30px;
+        }
+
+        @media only screen and (min-width: 321) and (max-width: 375px){
+            font-size: 36px;
+        }
+
+        @media only screen and (min-width: 376) and (max-width: 425){
+            font-size: 42px;
+        }
+    }
+}
+
+.elogo{
+    display: inline-block;
+    transform: rotate(-20deg);
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
